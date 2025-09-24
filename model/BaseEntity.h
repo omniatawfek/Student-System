@@ -1,26 +1,17 @@
 #pragma once
 
-
+#include "shareData.h"
 #include <iostream>
 using namespace std;
 
-class BaseEntity
+class BaseEntity : public shareData
 {
 private:
-	int id;
-	string name;
 	int age;
 	int phoneNumber;
 
 public:
 	// setter
-	void setId(int id) {
-		this->id = id;
-	}
-	void setName(string name) {
-		this->name = name;
-		;
-	}
 	void setAge(int age) {
 		this->age = age;
 	}
@@ -30,13 +21,6 @@ public:
 
 
 	// getter
-	int getId() {
-		return id;
-	}
-	string getName() {
-		return name;
-
-	}
 	int getAge() {
 		return age;
 	}

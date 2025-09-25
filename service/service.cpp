@@ -9,7 +9,7 @@ private :
 	StudentRepo studentRepo;
 public :
 	int virtual addStudent(student student) {
-		studentRepo.addStudent(student);
+	  return	studentRepo.addStudent(student);
 	}
 };
 
@@ -22,7 +22,7 @@ private :
 	CourseRepo courseRepo;
 public :
 	int virtual addCourse(course course) {
-		courseRepo.addCourse(course);
+	  return	courseRepo.addCourse(course);
 	}
 };
 

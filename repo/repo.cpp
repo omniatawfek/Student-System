@@ -6,12 +6,12 @@ using namespace std;
 
 ///////////////////////////// Student ////////////////////////
 // interface student
-class studentRepo {
+class StudentRepo {
 public :
 	int virtual addStudent(student student) = 0;
 };
 // impelmentation student
-class studentRepoIml : public studentRepo {
+class StudentRepoIml : public StudentRepo {
 private : 
 	student students[25];
 	int index = 0;
@@ -30,12 +30,12 @@ public :
 
 ///////////////////////////// Teacher ////////////////////////
 // interface teacher
-class teacherRepo {
+class TeacherRepo {
 public:
 	int virtual addTeacher(teacher teacher) = 0;
 };
 // impelmentation teacher
-class teacherRepoIml : public teacherRepo {
+class TeacherRepoIml : public TeacherRepo {
 private:
 	teacher teachers[25];
 	int index = 0;
@@ -54,12 +54,12 @@ public:
 
 ///////////////////////////// course ////////////////////////
 // interface course
-class courseRepo {
+class CourseRepo {
 public:
 	int virtual addCourse(course course) = 0;
 };
 // impelmentation course
-class courseRepoIml : public courseRepo {
+class CourseRepoIml : public CourseRepo {
 private:
 	course courses[25];
 	int index = 0;

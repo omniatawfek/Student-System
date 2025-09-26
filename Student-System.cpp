@@ -1,4 +1,4 @@
-#include "model/student.h"
+#include "controller/controller.cpp"
 #include <iostream>
 using namespace std;
 
@@ -21,7 +21,7 @@ int main()
     while (true) {
         displaySystem();
         cin >> process;
-        student student;
+        
         switch (process) {
         case 1:
             showList("student");
@@ -30,6 +30,7 @@ int main()
             
             if (processStudent == 1) {
                 cout << "Please Enter Student Data :" << endl;
+                student student;
                 cout << "Enter Student Name :"<<endl;
                 string name;
                 cin >> name;
@@ -46,6 +47,8 @@ int main()
                 double gpa;
                 cin >> gpa;
                 student.setgpa(gpa);
+                StudentController studentController;
+                studentController.addStudent(student);
                 cout << student.getName() << "  " << student.getAge() << "  " << student.getgpa() << "  " << student.getphoneNumber() << endl;
             }
             break;

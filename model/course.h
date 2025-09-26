@@ -15,7 +15,7 @@ public :
 	void setHour(double hour) {
 		this->hour = hour;
 	}
-	oid setStudentsIDS(int studentsIDS[5]) {
+	void setStudentsIDS(int studentsIDS[5]) {
 		for (int i = 0; i < size; i++) {
 			this->studentsIDS[i] = studentsIDS[i];
 		}

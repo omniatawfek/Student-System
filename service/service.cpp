@@ -9,10 +9,10 @@ public:
 // impelmentation student
 class StudentServiceImpl {
 private :
-	StudentRepo studentRepo;
+	//StudentRepo studentRepo;
 public :
 	int virtual addStudent(student student) {
-	  return	studentRepo.addStudent(student);
+	  //return	studentRepo.addStudent(student);
 	}
 };
 ///////////////////////////// course ////////////////////////
@@ -24,10 +24,10 @@ public:
 // impelmentation course
 class CourseServiceImpl {
 private :
-	CourseRepo courseRepo;
+	//CourseRepo courseRepo;
 public :
 	int virtual addCourse(course course) {
-	  return	courseRepo.addCourse(course);
+	  //return	courseRepo.addCourse(course);
 	}
 };
 ///////////////////////////// Teacher ////////////////////////
@@ -38,9 +38,9 @@ class TeacherService {
 // impelmentation teacher
 class TeacherServiceImpl {
 private :
-	TeacherRepo teacherRepo;
+	/*TeacherRepo teacherRepo;*/
 public :
 	int virtual addTeacher(teacher teacher) {
-	  return teacherRepo.addTeacher(teacher);
+	  //return teacherRepo.addTeacher(teacher);
 	}
 };

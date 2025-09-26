@@ -1,32 +1,36 @@
 
 #include <iostream>
 using namespace std;
+
+void displaySystem() {
+    cout << "Please Enter The Process You Want To Do :" << endl;
+    cout << "1 - About Students" << "\t\t" << "2- About courses" << endl;
+    cout << "3 - About teachers" << "\t\t" << "4-  Exit" << endl;
+}
+void showList(string value) {
+    cout << "1 - Add "<< value << "\t\t" << "2- Remove "<< value << endl;
+    cout << "3 - Edit " << value << "\t\t" << "4- Show " << value << endl;
+    cout << "5 - Exit" << endl;
+}
 int main()
 {
     int process;
     int flag = 0;
     cout << "\t\t *************** Student Mangament System *************** " << endl;
     while (true) {
-        cout << "Please Enter The Process You Want To Do :" << endl;
-        cout << "1 - Add Student" << "\t\t" << "2- Remove Student" << endl;
-        cout << "3 - Edit Student" << "\t\t" << "4- Show Student" << endl;
-        cout << "5 - Exit" << endl;
+        displaySystem();
         cin >> process;
         switch (process) {
         case 1:
-            cout << "add";
+            showList("student");
             break;
         case 2:
-            cout << "remove";
+            showList("course");
             break;
         case 3:
-            cout << "edit";
+            showList("teacher");
             break;
         case 4:
-            cout << "show";
-            break;
-        case 5:
-            cout << "exit";
             flag = 1;
             break;
         default :

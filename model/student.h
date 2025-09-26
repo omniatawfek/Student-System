@@ -8,7 +8,7 @@ private :
 
 	double gpa;
 	teacher teachers[5];
-	int size = sizeof(studentsIDS) / sizeof(studentsIDS[0]);
+	int size = sizeof(teachers) / sizeof(teachers[0]);
 	course courses[5];
 	int coursesSize = sizeof(courses) / sizeof(courses[0]);
 public:
@@ -29,7 +29,7 @@ public:
 		}
 	}
 	// getter
-=
+
 	double getgpa() {
 		return gpa;
 	}

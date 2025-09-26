@@ -1,7 +1,7 @@
 #include <iostream>
-#include "student.h"
-#include "course.h"
-#include "teacher.h"
+#include "../model/student.h"
+#include "../model/course.h"
+#include "../model/teacher.h"
 using namespace std;
 
 ///////////////////////////// Student ////////////////////////

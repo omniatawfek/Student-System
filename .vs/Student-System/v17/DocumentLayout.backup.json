@@ -46,8 +46,7 @@
               "RelativeToolTip": "controller\\controller.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-26T12:06:38.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T12:06:38.305Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "service\\service.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-26T12:02:31.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T12:02:31.329Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "repo\\repo.cpp",
               "ViewState": "AgIAACUAAAAAAAAAAAAlwBAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-26T12:00:02.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T12:00:02.02Z"
             },
             {
               "$type": "Document",
@@ -81,9 +78,9 @@
               "Title": "Student-System.cpp",
               "DocumentMoniker": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp",
               "RelativeDocumentMoniker": "Student-System.cpp",
-              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp",
-              "RelativeToolTip": "Student-System.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp*",
+              "RelativeToolTip": "Student-System.cpp*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAlwBcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-26T09:47:25.89Z",
               "EditorCaption": ""
@@ -98,8 +95,7 @@
               "RelativeToolTip": "model\\course.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-26T12:02:01.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T12:02:01.058Z"
             },
             {
               "$type": "Document",

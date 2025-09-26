@@ -1,4 +1,4 @@
-
+#include "model/student.h"
 #include <iostream>
 using namespace std;
 
@@ -8,6 +8,7 @@ void displaySystem() {
     cout << "3 - About teachers" << "\t\t" << "4-  Exit" << endl;
 }
 void showList(string value) {
+    cout << "\t\t *************** "<<value<<" Mangament System *************** " << endl;
     cout << "1 - Add "<< value << "\t\t" << "2- Remove "<< value << endl;
     cout << "3 - Edit " << value << "\t\t" << "4- Show " << value << endl;
     cout << "5 - Exit" << endl;
@@ -16,13 +17,37 @@ int main()
 {
     int process;
     int flag = 0;
-    cout << "\t\t *************** Student Mangament System *************** " << endl;
+    cout << "\t\t ***************  Mangament System *************** " << endl;
     while (true) {
         displaySystem();
         cin >> process;
+        student student;
         switch (process) {
         case 1:
             showList("student");
+            int processStudent;
+            cin >> processStudent;
+            
+            if (processStudent == 1) {
+                cout << "Please Enter Student Data :" << endl;
+                cout << "Enter Student Name :"<<endl;
+                string name;
+                cin >> name;
+                student.setName(name);
+                cout << "Enter Student Age :" << endl;
+                int age;
+                cin >> age;
+                student.setAge(age);
+                cout << "Enter Student PhoneNumber :" << endl;
+                int phoneNumber;
+                cin >> phoneNumber;
+                student.setphoneNumber(phoneNumber);
+                cout << "Enter Student GPA :" << endl;
+                double gpa;
+                cin >> gpa;
+                student.setgpa(gpa);
+                cout << student.getName() << "  " << student.getAge() << "  " << student.getgpa() << "  " << student.getphoneNumber() << endl;
+            }
             break;
         case 2:
             showList("course");

@@ -48,8 +48,8 @@ int main()
                 cin >> gpa;
                 student.setgpa(gpa);
                 StudentController studentController;
-                studentController.addStudent(student);
-                cout << student.getName() << "  " << student.getAge() << "  " << student.getgpa() << "  " << student.getphoneNumber() << endl;
+                int id = studentController.addStudent(student);
+                cout << "ID :  " << id << endl;
             }
             break;
         case 2:

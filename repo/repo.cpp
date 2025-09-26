@@ -4,6 +4,27 @@
 #include "../model/teacher.h"
 using namespace std;
 
+class Data {
+public :
+	static student students[25];
+	static int indexStudent ;
+	static int idStudent ;
+	static teacher teachers[25];
+	static int indexTeacher ;
+	static int idTeacher ;
+	static course courses[25];
+	static int indexCourse ;
+	static int idCourse ;
+};
+student  Data::students[25];
+int Data::indexStudent = 0;
+int Data::idStudent = 1;
+teacher  Data::teachers[25];
+int Data::indexTeacher = 0;
+int Data::idTeacher = 1;
+course  Data::courses[25];
+int Data::indexCourse = 0;
+int Data::idCourse = 1;
 ///////////////////////////// Student ////////////////////////
 // interface student
 class StudentRepo {
@@ -13,18 +34,19 @@ public :
 // impelmentation student
 class StudentRepoImpl : public StudentRepo {
 private : 
-	student students[25];
-	int index = 0;
+	Data data;
 public :
 	int addStudent(student student) {
-		if (index == 25) {
+		if (data.indexStudent == 25) {
 			cout << "full student";
 		}
 		else
 		{
-			students[index] = student;
-			index++;
+			student.setId(data.idStudent++);
+			data.students[data.indexStudent++] = student;
+			
 		}
+		return student.getId();
 	}
 };
 
@@ -37,17 +59,16 @@ public:
 // impelmentation teacher
 class TeacherRepoImpl : public TeacherRepo {
 private:
-	teacher teachers[25];
-	int index = 0;
+	Data data;
 public:
 	int addTeacher(teacher teacher) {
-		if (index == 25) {
+		if (data.indexTeacher == 25) {
 			cout << "full teacher";
 		}
 		else
 		{
-			teachers[index] = teacher;
-			index++;
+			data.teachers[data.indexTeacher++] = teacher;
+			
 		}
 	}
 };
@@ -61,17 +82,16 @@ public:
 // impelmentation course
 class CourseRepoImpl : public CourseRepo {
 private:
-	course courses[25];
-	int index = 0;
+	Data data;
 public:
 	int  addCourse(course course) {
-		if (index == 25) {
+		if (data.indexCourse == 25) {
 			cout << "full Courses";
 		}
 		else
 		{
-			courses[index] = course;
-			index++;
+			data.courses[data.indexCourse++] = course;
+		
 		}
 	}
 

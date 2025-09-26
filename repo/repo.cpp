@@ -8,15 +8,15 @@ using namespace std;
 // interface student
 class StudentRepo {
 public :
-	int virtual addStudent(student student) = 0;
+	 virtual int addStudent(student student) = 0;
 };
 // impelmentation student
-class StudentRepoIml : public StudentRepo {
+class StudentRepoImpl : public StudentRepo {
 private : 
 	student students[25];
 	int index = 0;
 public :
-	int virtual addStudent(student student) {
+	int addStudent(student student) {
 		if (index == 25) {
 			cout << "full student";
 		}
@@ -32,15 +32,15 @@ public :
 // interface teacher
 class TeacherRepo {
 public:
-	int virtual addTeacher(teacher teacher) = 0;
+	 virtual int addTeacher(teacher teacher) = 0;
 };
 // impelmentation teacher
-class TeacherRepoIml : public TeacherRepo {
+class TeacherRepoImpl : public TeacherRepo {
 private:
 	teacher teachers[25];
 	int index = 0;
 public:
-	int virtual addTeacher(teacher teacher) {
+	int addTeacher(teacher teacher) {
 		if (index == 25) {
 			cout << "full teacher";
 		}
@@ -56,15 +56,15 @@ public:
 // interface course
 class CourseRepo {
 public:
-	int virtual addCourse(course course) = 0;
+	 virtual int addCourse(course course) = 0;
 };
 // impelmentation course
-class CourseRepoIml : public CourseRepo {
+class CourseRepoImpl : public CourseRepo {
 private:
 	course courses[25];
 	int index = 0;
 public:
-	int virtual addCourse(course course) {
+	int  addCourse(course course) {
 		if (index == 25) {
 			cout << "full Courses";
 		}

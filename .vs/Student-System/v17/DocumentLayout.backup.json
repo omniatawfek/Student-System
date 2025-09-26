@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\controller\\controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|solutionrelative:controller\\controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\service\\service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|solutionrelative:service\\service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\repo\\repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|solutionrelative:repo\\repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B80D1D03-CC99-09E0-6634-58BB77848B5C}|Student-System.vcxproj|solutionrelative:Student-System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "repo.cpp",
+              "DocumentMoniker": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\repo\\repo.cpp",
+              "RelativeDocumentMoniker": "repo\\repo.cpp",
+              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\repo\\repo.cpp*",
+              "RelativeToolTip": "repo\\repo.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T14:27:59.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "service.cpp",
+              "DocumentMoniker": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\service\\service.cpp",
+              "RelativeDocumentMoniker": "service\\service.cpp",
+              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\service\\service.cpp*",
+              "RelativeToolTip": "service\\service.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T14:24:59.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "controller.cpp",
+              "DocumentMoniker": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\controller\\controller.cpp",
+              "RelativeDocumentMoniker": "controller\\controller.cpp",
+              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\controller\\controller.cpp*",
+              "RelativeToolTip": "controller\\controller.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T14:20:41.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student-System.cpp",
+              "DocumentMoniker": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp",
+              "RelativeDocumentMoniker": "Student-System.cpp",
+              "ToolTip": "C:\\Users\\omnia\\OneDrive\\Desktop\\Student-System\\Student-System.cpp",
+              "RelativeToolTip": "Student-System.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T14:20:09.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

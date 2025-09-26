@@ -1,2 +1,5 @@
-﻿  Student-System.cpp
+﻿  controller.cpp
+  repo.cpp
+  service.cpp
+  Generating Code...
   Student-System.vcxproj -> C:\Users\omnia\OneDrive\Desktop\Student-System\x64\Debug\Student-System.exe

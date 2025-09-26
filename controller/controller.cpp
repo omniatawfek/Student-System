@@ -4,29 +4,29 @@
 ///////////////////////////// Student ////////////////////////
 class StudentController {
 private:
-	//StudentService studentService;
+	StudentServiceImpl studentServiceImpl;
 public:
-	int virtual addStudent(student student) {
-		//return studentService.addStudent(student);
+	int addStudent(student student) {
+		return studentServiceImpl.addStudent(student);
 	}
 };
 
 ///////////////////////////// course ////////////////////////
 class CourseControllerl {
 private:
-	//CourseService courseService;
+	CourseServiceImpl courseServiceImpl;
 public:
-	int virtual addCourse(course course) {
-	 //return	courseService.addCourse(course);
+	int  addCourse(course course) {
+	 return	courseServiceImpl.addCourse(course);
 	}
 };
 
 ///////////////////////////// Teacher ////////////////////////
 class TeacherController {
 private:
-	//TeacherService teacherService;
+	TeacherServiceImpl teacherServiceImpl;
 public:
-	int virtual addTeacher(teacher teacher) {
-		//return teacherService.addTeacher(teacher);
+	int  addTeacher(teacher teacher) {
+		return teacherServiceImpl.addTeacher(teacher);
 	}
 };

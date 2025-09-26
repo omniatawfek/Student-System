@@ -4,43 +4,43 @@
 // interface student
 class StudentService {
 public:
-	int virtual addStudent(student student) = 0;
+	 virtual int addStudent(student student) = 0;
 };
 // impelmentation student
 class StudentServiceImpl {
 private :
-	//StudentRepo studentRepo;
+	StudentRepoImpl studentRepoImpl;
 public :
-	int virtual addStudent(student student) {
-	  //return	studentRepo.addStudent(student);
+	int  addStudent(student student) {
+	  return studentRepoImpl.addStudent(student);
 	}
 };
 ///////////////////////////// course ////////////////////////
 // interface course
 class CourseService {
 public:
-	int virtual addCourse(course course) = 0;
+	 virtual int addCourse(course course) = 0;
 };
 // impelmentation course
 class CourseServiceImpl {
 private :
-	//CourseRepo courseRepo;
+	CourseRepoImpl courseRepoImpl;
 public :
-	int virtual addCourse(course course) {
-	  //return	courseRepo.addCourse(course);
+	int  addCourse(course course) {
+	  return	courseRepoImpl.addCourse(course);
 	}
 };
 ///////////////////////////// Teacher ////////////////////////
 // interface teacher
 class TeacherService {
-	int virtual addTeacher(teacher teacher) = 0;
+	 virtual int addTeacher(teacher teacher) = 0;
 };
 // impelmentation teacher
 class TeacherServiceImpl {
 private :
-	/*TeacherRepo teacherRepo;*/
+	TeacherRepoImpl teacherRepoImpl;
 public :
-	int virtual addTeacher(teacher teacher) {
-	  //return teacherRepo.addTeacher(teacher);
+	int  addTeacher(teacher teacher) {
+	  return teacherRepoImpl.addTeacher(teacher);
 	}
 };
